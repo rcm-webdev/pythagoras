@@ -10,7 +10,7 @@ router.get('/', (req: Request, res: Response) => {
 });
 
 router.get('/api/hello', (req: Request, res: Response) => {
-   res.json({ message: 'Hello World!' });
+   res.json({ message: 'Hello World! This is the backend' });
 });
 
 router.get('/api/products/:id/reviews', (req: Request, res: Response) => {});
